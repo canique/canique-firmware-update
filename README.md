@@ -12,7 +12,7 @@ deactivate
 ```
 
 # Usage
-Follow the instructions to establish an USART connection in the device manual.  
+Follow the instructions to establish an USART connection in the device manual. But note that DTR must also be connected.  
 Usually this includes:
 - removing the battery
 - connecting wires to a USB to serial converter: VCC to 3.3V, GND to GND, RX to TX, TX to RX, **RST to DTR**
