@@ -11,7 +11,7 @@ pip install pyserial
 deactivate
 ```
 
-# Usage 500
+# Usage
 `cnq-fw-update-venv/bin/python3 usartUpload.py encrypted-flash-file.bin /dev/ttyUSB0 500000 bootloader-password`
 Replace `encrypted-flash-file.bin` by the name of your encrypted firmware binary.
 Replace `/dev/ttyUSB0` by your serial port.
