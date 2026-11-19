@@ -22,3 +22,5 @@ Then run:
 Replace `encrypted-flash-file.bin` by the name of your encrypted firmware binary.  
 Replace `/dev/ttyUSB0` by your serial port.  
 Replace `bootloader-password` by the bootloader password of the specific device (this is different for every single device)  
+
+**Important: After running the FW Update, do not immediately cut off power. The device will reboot and decrypt the firmware image and store it in its internal memory. This can take around 20 seconds.**
