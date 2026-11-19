@@ -12,7 +12,12 @@ deactivate
 ```
 
 # Usage
-Follow the instructions to establish an USART connection in the device manual. Usually this includes: removing the battery, connecting wires to VCC (3.3V), GND, RX, TX pins, and using a USB to serial converter to connect the wires to a computer USB port.  
+Follow the instructions to establish an USART connection in the device manual.  
+Usually this includes:
+- removing the battery
+- connecting wires to a USB to serial converter: VCC to 3.3V, GND to GND, RX to TX, TX to RX, **RST to DTR**
+- connecting the serial converter to a computer USB port.  
+
 Download the encrypted firmware image from the official canique website.  
 Request the bootloader password from Canique.  
 
