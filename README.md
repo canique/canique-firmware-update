@@ -12,6 +12,12 @@ deactivate
 ```
 
 # Usage
+Follow the instructions to establish an USART connection in the device manual. Usually this includes: removing the battery, connecting wires to VCC (3.3V), GND, RX, TX pins, and using a USB to serial converter to connect the wires to a computer USB port.  
+Download the encrypted firmware image from the official canique website.  
+Request the bootloader password from Canique.  
+
+Then run:  
+
 `cnq-fw-update-venv/bin/python3 usartUpload.py encrypted-flash-file.bin /dev/ttyUSB0 500000 bootloader-password`  
 Replace `encrypted-flash-file.bin` by the name of your encrypted firmware binary.  
 Replace `/dev/ttyUSB0` by your serial port.  
