@@ -2,7 +2,8 @@
 Code to update firmware on canique sensor devices
 
 # Installation
-```git clone https://github.com/canique/canique-firmware-update.git
+```
+git clone https://github.com/canique/canique-firmware-update.git
 cd canique-firmware-update
 python3 -m venv cnq-fw-update-venv
 source cnq-fw-update-venv/bin/activate
